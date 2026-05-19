@@ -11,9 +11,13 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-function loadNews() {
-  const raw = readFileSync(join(__dirname, 'data', 'news.json'), 'utf-8');
+function loadJson(filename) {
+  const raw = readFileSync(join(__dirname, 'data', filename), 'utf-8');
   return JSON.parse(raw);
+}
+
+function loadNews() {
+  return loadJson('news.json');
 }
 
 app.get('/api/health', (_req, res) => {
@@ -53,6 +57,34 @@ app.get('/api/categories', (_req, res) => {
   const items = loadNews();
   const categories = [...new Set(items.map((n) => n.category))];
   res.json(categories);
+});
+
+app.get('/api/tools', (req, res) => {
+  let items = loadJson('tools.json');
+  const { category } = req.query;
+  if (category) {
+    items = items.filter((t) => t.category === category);
+  }
+  res.json(items);
+});
+
+app.get('/api/tools/categories', (_req, res) => {
+  const items = loadJson('tools.json');
+  res.json([...new Set(items.map((t) => t.category))]);
+});
+
+app.get('/api/models', (req, res) => {
+  let items = loadJson('models.json');
+  const { vendor } = req.query;
+  if (vendor) {
+    items = items.filter((m) => m.vendor === vendor);
+  }
+  res.json(items);
+});
+
+app.get('/api/models/vendors', (_req, res) => {
+  const items = loadJson('models.json');
+  res.json([...new Set(items.map((m) => m.vendor))]);
 });
 
 app.listen(PORT, () => {

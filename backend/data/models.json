@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "GPT-5 / GPT-5.3 Codex",
+    "vendor": "OpenAI",
+    "tier": "旗舰",
+    "description": "通用与编码能力兼备，Codex 系列针对 Agent 与长链路软件任务优化，是主流 vibe 工具的核心后端之一。",
+    "highlights": ["强推理", "工具调用", "多模态输入"],
+    "context": "200K+",
+    "status": "已发布",
+    "updatedAt": "2026-05"
+  },
+  {
+    "id": 2,
+    "name": "Claude Opus 4.6 / Sonnet 4.6",
+    "vendor": "Anthropic",
+    "tier": "旗舰",
+    "description": "以长上下文与代码质量著称，Sonnet 平衡性价比，Opus 适合复杂架构与大型重构。",
+    "highlights": ["代码质量高", "200K 上下文", "Computer Use"],
+    "context": "200K",
+    "status": "已发布",
+    "updatedAt": "2026-05"
+  },
+  {
+    "id": 3,
+    "name": "Gemini 2.5 Pro",
+    "vendor": "Google",
+    "tier": "旗舰",
+    "description": "多模态与超长上下文窗口，适合大仓库分析与文档+代码混合场景。",
+    "highlights": ["百万级上下文（预览）", "多模态", "Google 生态集成"],
+    "context": "1M",
+    "status": "已发布",
+    "updatedAt": "2026-05"
+  },
+  {
+    "id": 4,
+    "name": "DeepSeek V3 / R1",
+    "vendor": "DeepSeek",
+    "tier": "开源/商用",
+    "description": "国产开源代表，R1 强化推理，V3 兼顾通用与编码，API 价格极具竞争力。",
+    "highlights": ["开源权重", "推理模型 R1", "高性价比 API"],
+    "context": "128K",
+    "status": "已发布",
+    "updatedAt": "2026-04"
+  },
+  {
+    "id": 5,
+    "name": "Llama 4",
+    "vendor": "Meta",
+    "tier": "开源",
+    "description": "Meta 新一代开源系列，面向本地部署与私有化 vibe 工作流，生态工具链持续完善。",
+    "highlights": ["可自托管", "多尺寸变体", "开放许可"],
+    "context": "128K+",
+    "status": "已发布",
+    "updatedAt": "2026-04"
+  },
+  {
+    "id": 6,
+    "name": "Mistral Large / Codestral",
+    "vendor": "Mistral AI",
+    "tier": "旗舰",
+    "description": "欧洲代表厂商，Codestral 专注代码补全与生成，Large 系列服务 Agent 与对话场景。",
+    "highlights": ["Codestral 专码", "欧盟部署选项", "开放权重小模型"],
+    "context": "128K",
+    "status": "已发布",
+    "updatedAt": "2026-05"
+  },
+  {
+    "id": 7,
+    "name": "Grok 3",
+    "vendor": "xAI",
+    "tier": "旗舰",
+    "description": "xAI 旗舰模型，强调实时信息与推理，逐步进入第三方 IDE 与 API 生态。",
+    "highlights": ["实时数据", "推理模式", "X 平台集成"],
+    "context": "131K",
+    "status": "已发布",
+    "updatedAt": "2026-04"
+  },
+  {
+    "id": 8,
+    "name": "Qwen 3",
+    "vendor": "阿里巴巴",
+    "tier": "开源/商用",
+    "description": "通义千问新一代，多尺寸开源 + 云端 API，在中文场景与代码任务上表现突出。",
+    "highlights": ["中文优化", "多模态", "Agent 工具链"],
+    "context": "128K+",
+    "status": "已发布",
+    "updatedAt": "2026-05"
+  }
+]

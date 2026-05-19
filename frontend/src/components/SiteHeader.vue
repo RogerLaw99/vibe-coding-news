@@ -19,6 +19,8 @@ function isActive(name) {
       <nav class="nav">
         <RouterLink to="/" :class="{ active: isActive('home') }">首页</RouterLink>
         <RouterLink to="/news" :class="{ active: isActive('news') }">资讯</RouterLink>
+        <RouterLink to="/tools" :class="{ active: isActive('tools') }">工具</RouterLink>
+        <RouterLink to="/models" :class="{ active: isActive('models') }">大模型</RouterLink>
       </nav>
     </div>
   </header>
@@ -68,7 +70,19 @@ function isActive(name) {
 
 .nav {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem 1.25rem;
+  justify-content: flex-end;
+}
+
+@media (max-width: 640px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 0.75rem 0;
+    gap: 0.75rem;
+  }
 }
 
 .nav a {

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Cursor",
+    "category": "IDE",
+    "tagline": "AI 原生代码编辑器",
+    "description": "基于 VS Code，内置 Agent、Composer 与多模型切换，是目前最流行的 Vibe Coding IDE 之一。",
+    "highlights": ["Agent 多步任务", "代码库索引", "规则与 Skill"],
+    "website": "https://cursor.com",
+    "updatedAt": "2026-05"
+  },
+  {
+    "id": 2,
+    "name": "Windsurf",
+    "category": "IDE",
+    "tagline": "Cascade 流式协作",
+    "description": "Codeium 推出的 AI IDE，强调 Cascade 代理与深度代码库理解，适合全流程 vibe 开发。",
+    "highlights": ["Cascade Agent", "多文件编辑", "免费档可用"],
+    "website": "https://windsurf.com",
+    "updatedAt": "2026-05"
+  },
+  {
+    "id": 3,
+    "name": "GitHub Copilot",
+    "category": "插件",
+    "tagline": "编辑器内联补全先驱",
+    "description": "深度集成 GitHub / VS Code / JetBrains，从补全扩展到 Copilot Chat 与 Workspace Agent。",
+    "highlights": ["广泛 IDE 支持", "企业合规", "PR 与 Issue 联动"],
+    "website": "https://github.com/features/copilot",
+    "updatedAt": "2026-04"
+  },
+  {
+    "id": 4,
+    "name": "Claude Code",
+    "category": "CLI",
+    "tagline": "终端里的编码 Agent",
+    "description": "Anthropic 出品的命令行 Agent，适合在现有仓库中通过对话完成重构、测试与 Git 操作。",
+    "highlights": ["终端优先", "长上下文", "与 Claude 模型同源"],
+    "website": "https://docs.anthropic.com/en/docs/claude-code",
+    "updatedAt": "2026-05"
+  },
+  {
+    "id": 5,
+    "name": "OpenAI Codex",
+    "category": "Agent",
+    "tagline": "云端软件工程 Agent",
+    "description": "面向仓库级任务的云端 Agent，可执行 shell、改多文件并在沙箱中验证，适合 offload 整块功能开发。",
+    "highlights": ["云端沙箱", "GitHub 集成", "任务级交付"],
+    "website": "https://openai.com/codex",
+    "updatedAt": "2026-05"
+  },
+  {
+    "id": 6,
+    "name": "Bolt.new",
+    "category": "Web",
+    "tagline": "浏览器里生成全栈应用",
+    "description": "通过对话在浏览器中生成并预览 React / Node 等项目，适合快速原型与 demo 的 vibe 体验。",
+    "highlights": ["零本地环境", "即时预览", "StackBlitz 驱动"],
+    "website": "https://bolt.new",
+    "updatedAt": "2026-04"
+  },
+  {
+    "id": 7,
+    "name": "v0",
+    "category": "Web",
+    "tagline": "UI 组件 vibe 生成",
+    "description": "Vercel 的 UI 生成工具，专注 React / Tailwind 组件与页面，常与 Next.js 工作流配合。",
+    "highlights": ["shadcn 风格", "可导出代码", "设计到实现"],
+    "website": "https://v0.dev",
+    "updatedAt": "2026-05"
+  },
+  {
+    "id": 8,
+    "name": "Replit Agent",
+    "category": "云端",
+    "tagline": "在线 IDE + Agent",
+    "description": "Replit 将托管运行时与 Agent 结合，从描述到部署一条龙，适合教学与轻量产品。",
+    "highlights": ["一键部署", "多语言运行时", "协作分享"],
+    "website": "https://replit.com",
+    "updatedAt": "2026-04"
+  }
+]
