@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "什么是 Vibe Coding？",
+    "summary": "用自然语言描述意图，让 AI 帮你写代码——这就是 Vibe Coding 的核心体验。",
+    "content": "Vibe Coding 是一种新兴的编程方式：开发者不再逐行手写每一句代码，而是通过与 AI 对话、描述需求与氛围（vibe），由模型生成并迭代代码。Cursor、Windsurf 等 IDE 让这种模式从实验走向日常。重点从「语法细节」转向「问题定义与验证」。",
+    "category": "入门",
+    "author": "编辑部",
+    "publishedAt": "2026-05-15",
+    "image": "/images/vibe-intro.svg"
+  },
+  {
+    "id": 2,
+    "title": "Cursor 2.0 强化 Agent 工作流",
+    "summary": "多步任务、子代理与背景执行，让复杂功能一次对话就能落地。",
+    "content": "最新一代 Cursor 将 Agent 能力推到前台：可并行探索代码库、自动修复 CI、在浏览器中验证前端改动。对 Vibe Coding 用户而言，这意味着更少切换上下文，更多时间花在产品思路上。",
+    "category": "工具",
+    "author": "工具观察",
+    "publishedAt": "2026-05-10",
+    "image": "/images/cursor-agent.svg"
+  },
+  {
+    "id": 3,
+    "title": "团队如何规范 AI 辅助开发",
+    "summary": "代码审查、规则文件与 Skill——让 Vibe Coding 可规模、可审计。",
+    "content": "当整队都在用 AI 写代码时，需要约定：哪些目录可自动改、提交前必须人工 review 什么、如何用 .cursor/rules 固化架构决策。好的规范不是限制创造力，而是让 vibe 输出始终对齐团队标准。",
+    "category": "实践",
+    "author": "工程文化",
+    "publishedAt": "2026-05-08",
+    "image": "/images/team-rules.svg"
+  },
+  {
+    "id": 4,
+    "title": "从 Prompt 到产品：一个周末的 MVP",
+    "summary": "真实案例：非全栈背景的产品经理用 Vibe Coding 搭出可演示原型。",
+    "content": "案例主角用 Vue + Node 描述需求，让 AI 生成前后端骨架，自己只调整业务逻辑与 UI 文案。周末内完成登录、列表与详情页。启示：Vibe Coding 降低的是「从 0 到 1」的门槛，而不是替代对用户的理解。",
+    "category": "案例",
+    "author": "社区投稿",
+    "publishedAt": "2026-05-01",
+    "image": "/images/mvp-weekend.svg"
+  },
+  {
+    "id": 5,
+    "title": "安全与隐私：别把密钥写进对话",
+    "summary": "Vibe Coding 时代更要注意 .env、API Key 与敏感数据的处理。",
+    "content": "AI 对话可能被记录或用于改进模型。务必使用环境变量、gitignore 敏感文件，并在规则中明确禁止提交密钥。企业版工具通常提供隐私模式——生产项目建议优先开启。",
+    "category": "安全",
+    "author": "安全简报",
+    "publishedAt": "2026-04-28",
+    "image": "/images/security.svg"
+  }
+]
